@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+section{
+    width:100% ;
+}
+#title{
+    width: 75%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: -90px;
+}
+#btn{
+    width: 12%;
+    height:2.9rem ;
+    padding: 0;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+nav{
+    display: grid;
+    grid-template-columns:10% 80% 10% ;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+   height: 2.5rem;
+   
+
+}
+
+.nav__check{
+    text-align: left;
+}
+.nav__remove{
+    text-align: right;
+}
+
+.nav__check{
+    color: rgba(255, 255, 255, 0);
+    
+}
+
+
+nav{
+    background-color: red;
+}
+.nav_click{
+    background-color: blue;
+    color: black;
+    text-decoration: line-through;
+    
+}
+button{
+background-color:  rgba(255, 255, 255, 0);
+cursor: pointer;
+border: none;
+}
+.click{
+
+color: rgba(255, 255, 255, 1);
+
+}
+.white{
+    color: white;
+}
+.nav__remove{
+    color: white;
+
+}
+.fa-solid {
+color:white;
+}
